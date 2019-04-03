@@ -1,0 +1,201 @@
+/**************************************************************
+*  Style sheet for Assignment 1: Basic Profile
+*  Name: Sean Bryan
+*  Date: 2019-03-23
+***************************************************************/
+
+::placeholder {
+    color: lightgray;
+}
+
+/* Element Selectors */
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+a {
+    color: #777777;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+input {
+    width: 893px;
+    padding: 12px;
+}
+
+textarea {
+    width: 893px;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 20px;
+    height: 200px;
+    border-width: 1px;
+    font: 400 13.3333px Arial;
+}
+
+label {
+    margin-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+/* Class Selectors */
+.clearfix::after {
+    content:"";
+    display: block;
+    clear:both
+}
+
+.content-area {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content-area h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 0 0 6px 0;
+    font-size: 1.5em;
+}
+
+.content-area p {
+    margin-right: 20px;
+    margin-left: 20px;
+} 
+
+.content-area input {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:15%;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color:#666666;
+    color: #4aaaa5;
+}
+
+.portfolio-image {
+    height: 150px;
+    width: 180px;
+    margin: 20px 20px 0 20px;
+}
+
+.image-container {
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-left: 0;
+}
+
+.image-banner {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #4aaaa5;
+    width: 180px;
+    padding:3px 0;
+}
+
+/* ID Selectors */
+#page-container {
+    position: relative;
+  }
+
+#header {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#topnav {
+    background-color: #ffffff;
+    float: left;
+    width: 75%;
+    text-align: right;
+}
+
+#wrapper {
+    background-image: url(../images/paper_3.png);
+    border-top-color: #cccccc;
+    border-style: solid;
+    border-width: 3px 0 0 0;
+    min-height: 100vh;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#message-box {
+    height: 100px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    border-top-color: #4aaaa5;
+    border-style: solid;
+    border-width: 8px 0 0 0;
+}
+
+#footer p {
+    color: #ffffff;
+}
