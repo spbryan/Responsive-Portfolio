@@ -230,6 +230,11 @@ label {
     .content-area input {
         margin-left: 10px;
     }
+    
+    .image-banner {
+        left: 45.5%;
+        padding:5px 0;
+    }
 
     /* ID Adjustments */
     #header {
@@ -273,6 +278,11 @@ label {
         margin-left: 15px;
     }
 
+    .image-banner {
+        left: 43.5%;
+        padding:5px 0;
+    }
+
     /* ID Adjustments */
     #header {
         width: 640px;
@@ -291,6 +301,16 @@ label {
 }
 
 @media screen and (max-width: 640px) {
+
+    .image-container {
+        float: none;
+    }
+
+    .image-banner {
+        left: 45.5%;
+        padding:5px 0;
+    }
+
     #name {
         background-color: purple;
       }
