@@ -206,10 +206,6 @@ label {
 /* 980px, 768px and 640px. */
 
 @media screen and (max-width: 980px) {
-    #name {
-        background-color: lightgreen;
-    }
-
     /* Element Adjustments */
     body {
         line-height: 90%;
@@ -259,9 +255,6 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-    #name {
-      background-color: red;
-    }
     /* Element Adjustments */
     body {
         line-height: 100%;
@@ -279,9 +272,9 @@ label {
         font-size: 85%;
     } 
     
-    .content-area input {
-        margin-left: 15px;
-    }
+    /* .content-area input {
+        margin-left: 20px;
+    } */
 
     .image-banner {
         left: 43.5%;
@@ -294,7 +287,7 @@ label {
     }
 
     #name {
-        font-size: 70%;
+        font-size: 75%;
     }
 
     #bio-image {
@@ -323,10 +316,6 @@ label {
         margin: 0 auto;
         padding:5px 0;
     }
-
-    #name {
-        background-color: purple;
-      }
 
     /* ID Adjustments */
     #header {
