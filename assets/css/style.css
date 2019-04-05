@@ -99,7 +99,7 @@ label {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width:15%;
+    width:150px !important;
     margin-bottom: 15px;
 }
 
@@ -215,10 +215,19 @@ label {
         line-height: 90%;
     }
 
+    textarea {
+        width: 88%;
+    }
+
     /* Class Adjustments */
     .content-area {
         width: 60%;
-        margin: 0;
+        margin-left: 5%;
+    }
+
+    .content-area input {
+        width: 88%;
+        margin: 5px 0 5px 20px;
     }
     
     .content-area p {
@@ -226,10 +235,6 @@ label {
         margin-left: 10px;
         font-size: 70%;
     } 
-    
-    .content-area input {
-        margin-left: 10px;
-    }
     
     .image-banner {
         left: 45.5%;
@@ -306,8 +311,16 @@ label {
         float: none;
     }
 
+    .portfolio-image {
+        height: 150px;
+        width: 180px;
+        margin: 0 auto;
+    }
+
     .image-banner {
         left: 45.5%;
+        margin: 20px 20px 0 20px;
+        margin: 0 auto;
         padding:5px 0;
     }
 
